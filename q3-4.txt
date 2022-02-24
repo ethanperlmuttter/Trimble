@@ -1,6 +1,0 @@
-3. If you were asked to impute null values in a column of a file that was
-365 Gigabytes, what would you do? What tools would you use?
-What tools would you NOT use?
-
-I would use SQL for efficient database management, especially on a cloud based service such as AWS to conserve local memory.
-I would not use Python/Pandas or an R dataframe for this task, which would be incredibly inefficient for this file size.
