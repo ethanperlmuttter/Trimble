@@ -2,14 +2,21 @@
 365 Gigabytes, what would you do? What tools would you use?
 What tools would you NOT use?
 
-I would use SQL for efficient database management, especially on a cloud based service such as AWS or Azure to conserve local memory.
-I would not use Python/Pandas or an R dataframe for this task, which would be incredibly inefficient for this file size.
+I would use SQL for efficient database management, especially on a cloud based service such as AWS or Azure 
+to conserve local memory.
+I would not use Python/Pandas or an R dataframe for this task, which would be incredibly inefficient for this 
+file size.
 
 4. What would you do if you were asked to do the above task every Thursday morning at 2:00am?
 
-I would create a recurring scheduled job that imputes null valuesat that time on a platform such as SQL Server Agent.
+I would create a recurring scheduled job that imputes null values at that time on a platform such as SQL Server 
+Agent.
 
 5. Who is your favorite mathematician, statistician or computer scientist and why?
 
-My favorite mathematician is Carl Fredrich Gauss because of the story where he invented a simple formula to sum geometric series when he had to add 1-100 as a punishment. The elegance of this formula is striking given the circumstance of its formulation.
-His contributions to mathematics and statistics are also extremely broad. There is a very lengthy wikapedia page for "Things Named After Carl Friedrich Gauss". One of my favorite entries on this page is the Gaussian distribution. Distributions that are Gaussian tend to be easy to work with.
+My favorite mathematician is Carl Fredrich Gauss because of the story where he invented a simple formula to sum 
+geometric series when he had to add 1-100 as a punishment. The elegance of this formula is striking given the 
+circumstance of its formulation.
+His contributions to mathematics and statistics are also extremely broad. There is a very lengthy Wikapedia page 
+for "Things Named After Carl Friedrich Gauss". One of my favorite entries on this page is the Gaussian 
+distribution. Distributions that are Gaussian tend to be easy to work with.
