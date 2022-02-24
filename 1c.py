@@ -14,7 +14,7 @@ marks_table = pd.DataFrame(data= d1)
 name_table_UL = pt_b.to_upper_or_lower(name_table)
 
 #returns a data frame that summarizes the average grade of uppercase
-names and lowercase names
+#names and lowercase names
 def summarize_upper_lower(nt = name_table_UL, mt = marks_table):
     name_marks_table = pd.merge(nt.copy(deep = True), mt.copy(deep = True), on = 'StudentID')
     name_marks_lower = name_marks_table[name_marks_table['Name'].str.islower()]
